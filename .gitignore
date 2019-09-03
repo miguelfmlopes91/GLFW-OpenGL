@@ -300,3 +300,4 @@ GFLW OpenGL/DerivedData/GFLW OpenGL/Logs/Build/LogStoreManifest.plist
 GFLW OpenGL/DerivedData/GFLW OpenGL/Index/UniDB/GFLW OpenGL.xcindex/v11/p20523/lock.mdb
 GFLW OpenGL/DerivedData/GFLW OpenGL/Index/UniDB/GFLW OpenGL.xcindex/v11/p20523/data.mdb
 *.xcuserstate
+*.xcactivitylog

@@ -8,7 +8,7 @@
 #include <GLFW/glfw3.h>
 
 // Window dimensions
-const GLint WIDTH = 800, HEIGHT = 600;
+constexpr GLint WIDTH = 800, HEIGHT = 600;//
 
 // The MAIN function, from here we start the application and run the game loop
 int main(){
@@ -19,12 +19,12 @@ int main(){
     glfwWindowHint( GLFW_CONTEXT_VERSION_MAJOR, 3 );
     glfwWindowHint( GLFW_CONTEXT_VERSION_MINOR, 3 );
     glfwWindowHint( GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE );
-    glfwWindowHint( GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE );
+    glfwWindowHint( GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE ); // required for mac
     glfwWindowHint( GLFW_RESIZABLE, GL_FALSE );
     
     // Create a GLFWwindow object that we can use for GLFW's functions
     GLFWwindow *window = glfwCreateWindow( WIDTH, HEIGHT, "LearnOpenGL", nullptr, nullptr );
-    
+
     int screenWidth, screenHeight;
     glfwGetFramebufferSize( window, &screenWidth, &screenHeight );
     
