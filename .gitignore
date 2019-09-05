@@ -301,3 +301,11 @@ GFLW OpenGL/DerivedData/GFLW OpenGL/Index/UniDB/GFLW OpenGL.xcindex/v11/p20523/l
 GFLW OpenGL/DerivedData/GFLW OpenGL/Index/UniDB/GFLW OpenGL.xcindex/v11/p20523/data.mdb
 *.xcuserstate
 *.xcactivitylog
+*.dia
+
+/Users/miguel.lopes/Documents/GitHub/GLFW-OpenGL/GFLW OpenGL/Index/*
+/Users/miguel.lopes/Documents/GitHub/GLFW-OpenGL/GFLW OpenGL/DerivedData/*
+/Users/miguel.lopes/Documents/GitHub/GLFW-OpenGL/GFLW OpenGL/Build/*
+/Build/*
+/Build
+/DerivedData
