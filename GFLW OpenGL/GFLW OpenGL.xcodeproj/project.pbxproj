@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20050FF0232BBF640065DBC0 /* resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20050FEE232BBF3D0065DBC0 /* resources */; };
 		2064807D231EF16800860B64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2064807C231EF16800860B64 /* main.cpp */; };
 		20648085231EF1F400860B64 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20648084231EF1F400860B64 /* OpenGL.framework */; };
 		20648087231EF23700860B64 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 20648086231EF23700860B64 /* libGLEW.2.1.0.dylib */; };
@@ -14,6 +15,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		20050FEF232BBF560065DBC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				20050FF0232BBF640065DBC0 /* resources in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20648077231EF16700860B64 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -26,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		20050FED232A6EBC0065DBC0 /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		20050FEE232BBF3D0065DBC0 /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
 		20648079231EF16800860B64 /* GFLW OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GFLW OpenGL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2064807C231EF16800860B64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		20648084231EF1F400860B64 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -67,7 +80,9 @@
 		2064807B231EF16800860B64 /* GFLW OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				20050FEE232BBF3D0065DBC0 /* resources */,
 				2064807C231EF16800860B64 /* main.cpp */,
+				20050FED232A6EBC0065DBC0 /* Shader.h */,
 			);
 			path = "GFLW OpenGL";
 			sourceTree = "<group>";
@@ -92,6 +107,7 @@
 				20648075231EF16700860B64 /* Sources */,
 				20648076231EF16700860B64 /* Frameworks */,
 				20648077231EF16700860B64 /* CopyFiles */,
+				20050FEF232BBF560065DBC0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
